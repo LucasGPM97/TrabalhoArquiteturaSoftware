@@ -1,0 +1,74 @@
+Procedimentos
+
+
+  P001                - Cadastro
+
+  Requisito           - Permitir que o usuario se cadastre
+
+  Modulo              - Cadastro
+
+  Descricao           - Permitir que novos clientes se cadastrem fornecendo informações pessoais básicas (nome, endereço, telefone, e-mail)
+
+  Processo/Fluxo      - Menu -> Cadastro
+
+  Ator(es)            - Cliente
+
+  Funcionalidades     - Cadastrar Usuario
+
+  Cenarios            - Cenario 1 Cadastrar novo usuario
+                        Dado que o cliente nao possua um usuario deseje utilizar o aplicativo
+                        
+                        Quando o cliente acessar o aplicativo -> Cadastrar
+                        
+                        Entao o sistema ira exibir uma tela para realizar o cadastro, com os campos
+                        (nome, endereco, telefone, e-mail e senha)
+
+
+  Fluxo Principal     - Cenario 1
+                        Acao Usuario                                                    Acao sistema
+                        1. O usuario acessa o aplicativo e seleciona Cadastrar-se       1. Exibe a tela de cadastro com os campos a ser preenchidos e um botar para confirmar
+                        2. O usuario devera preencher os campos e selecionar confirmar. 2. O Sistema devera validar os campos e retornar se o cadastro foi concluido ou nao
+
+
+                        
+
+  Regras de Negocio   - RN01 - O e-mail devera ser validado
+                      - RN02 - O telefone devera ser validado
+
+  _____________________________________________________________________________
+  P002                - Login
+
+  Requisito           - Permitir que o usuario realize o login
+
+  Modulo              - Login
+
+  Descricao           - Permitir que clientes cadastrados realizem o login no aplicativo
+
+  Processo/Fluxo      - Menu -> Login
+
+  Ator(es)            - Cliente
+
+  Funcionalidades     - Realizar Login
+
+  Cenarios            - Cenario 1 Realizar login
+                        Dado que o cliente possua um cadastro e deseje realizar um login no aplicativo
+                        
+                        Quando o cliente acessar o aplicativo -> Login
+                        
+                        Entao o sistema ira exibir uma tela para realizar o Login, com os campos
+                        (e-mail e senha)
+
+
+  Fluxo Principal     - Cenario 1
+                        Acao Usuario                                                    Acao sistema
+                        1. O usuario acessa o aplicativo e seleciona login              1. Exibe a tela de login com os campos a ser preenchidos e um botar para confirmar
+                        2. O usuario devera preencher os campos e selecionar confirmar. 2. O Sistema devera validar os campos e retornar se o login foi concluido ou nao
+
+
+                        
+
+  Regras de Negocio   - RN01 - O e-mail devera ser validado
+                      - RN02 - O telefone devera ser validado
+
+
+
