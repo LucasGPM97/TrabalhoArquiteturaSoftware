@@ -1,9 +1,20 @@
-class Cliente {
+package com.SaborGourmet;
+import java.util.Scanner;
+
+public class Cliente {
+
     private String nome;
     private String email;
     private String endereco;
     private String telefone;
     private String senha;
+    private Carrinho carrinho;
+    private Pedido pedido;
+
+    public Cliente() {
+
+    }
+
 
     public Cliente(String nome, String email, String endereco, String telefone, String senha) {
         this.nome = nome;
@@ -11,6 +22,9 @@ class Cliente {
         this.endereco = endereco;
         this.telefone = telefone;
         this.senha = senha;
+        this.carrinho = new Carrinho();
+        this.pedido = new Pedido();
+
     }
 
     public String getNome() {
@@ -53,4 +67,11 @@ class Cliente {
         this.senha = senha;
     }
 
+    public Carrinho getCarrinho() {
+        return carrinho;
+    }
+
+    public Pedido getPedido() {
+        return pedido;
+    }
 }
