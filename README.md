@@ -4,11 +4,12 @@ Desenvolvimento de um Sistema de Gerenciamento de Pedidos para Restaurante Onlin
 
 ## Tabela de Conteudo
 1. Diagramas
-    - Use Case
-    - Class
+   - [Use Case](diagramas/UseCaseDiagram.jpg)
+    - [Class](diagramas/ClassDiagram.jpg)
 2. Documentos
-     - Historias de Usuario
-3. [Codigo](projetojava/)
+   - [Historias de Usuario](documento/HistoriasDeUsuario.pdf)
+4. Codigo
+   - [Java](projetojava/)
 
 ## Integrantes
 - LUCAS GABRIEL PEREIRA DE MENEZES
