@@ -14,3 +14,4 @@ Desenvolvimento de um Sistema de Gerenciamento de Pedidos para Restaurante Onlin
 ## Integrantes
 - LUCAS GABRIEL PEREIRA DE MENEZES
 - JOÃO PEDRO DA COSTA PORTO GONÇALVES
+- ANA GABRIELA FRANCO DOS SANTOS
